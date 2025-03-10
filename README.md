@@ -13,9 +13,10 @@ This project is a website for TTGDTX-GDNN Đức Linh, providing information abo
 ## Usage
 Open `index.html` in your web browser to view the website.
 
-## Contact
-- **Email**: lt.haidang@gmail.com
-- **Facebook**: [Trần Lê Hải Đăng](https://www.facebook.com/profile.php?id=100085619550486)
+## Screenshots
+![Screenshot 1](assets/img/screenshot1.jpeg)
+![Screenshot 2](assets/img/screenshot1.jpeg)
+
 
 ## Credits
 - **Bootstrap**: [Bootstrap](https://getbootstrap.com/)
