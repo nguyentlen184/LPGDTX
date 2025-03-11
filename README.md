@@ -15,7 +15,6 @@ Open `index.html` in your web browser to view the website.
 
 ## Screenshots
 ![Screenshot 1](assets/img/screenshot1.jpeg)
-![Screenshot 2](assets/img/screenshot1.jpeg)
 
 ## Project Structure
 ```
