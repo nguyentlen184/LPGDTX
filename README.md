@@ -43,6 +43,8 @@ Open `index.html` in your web browser to view the website.
 │   │   ├── countup.min.js
 │   │   ├── flatpickr.min.js
 │   │   └── soft-design-system.min.js
+│   ├── fonts/
+│   │   ├── VZAP.ttf
 │   └── pdf/
 │       ├── sgktoan1.pdf
 │       ├── sgktoan2.pdf
