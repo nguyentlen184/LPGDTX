@@ -17,6 +17,37 @@ Open `index.html` in your web browser to view the website.
 ![Screenshot 1](assets/img/screenshot1.jpeg)
 ![Screenshot 2](assets/img/screenshot1.jpeg)
 
+## Project Structure
+```
+.
+├── about.html
+├── hoatdong.html
+├── index.html
+├── README.md
+├── tainguyen.html
+├── tuyensinh.html
+├── assets/
+│   ├── css/
+│   │   ├── boostrap.css
+│   │   └── theme.css
+│   ├── img/
+│   │   ├── 1_2.png
+│   │   ├── 3.webp
+│   │   ├── 122_1.png
+│   │   ├── 12146142.gif
+│   │   ├── 16675757.gif
+│   │   ├── 17428653.gif
+│   │   ├── ...
+│   ├── js/
+│   │   ├── bootstrap.min.js
+│   │   ├── countup.min.js
+│   │   ├── flatpickr.min.js
+│   │   └── soft-design-system.min.js
+│   └── pdf/
+│       ├── sgktoan1.pdf
+│       ├── sgktoan2.pdf
+│       └── vl.pdf
+```
 
 ## Credits
 - **Bootstrap**: [Bootstrap](https://getbootstrap.com/)
