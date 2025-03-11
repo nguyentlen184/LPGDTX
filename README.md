@@ -55,4 +55,3 @@ Open `index.html` in your web browser to view the website.
 ## Credits
 - **Bootstrap**: [Bootstrap](https://getbootstrap.com/)
 - **FontAwesome**: [FontAwesome](https://fontawesome.com/)
-- **Soft UI Design System**: [Soft UI Design System](https://www.creative-tim.com/product/soft-ui-design-system)
