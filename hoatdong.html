@@ -90,19 +90,19 @@
         <div class="container">
             <p class="lead text-center">Dưới đây là các hoạt động gần đây của TTGDTX-GDNN ĐỨC LINH. Nhấp vào từng mục để xem chi tiết.</p>
             <div class="timeline-horizontal" style="display: flex; justify-content: space-between; margin: 20px 0;">
-                <div class="timeline-item" onclick="showActivity('activity1')">
+                <div class="timeline-item activity-content1" onclick="showActivity('activity1')">
                     <div class="timeline-content">
-                        <h3>Hành Trình Về Nguồn</h3>
+                        <h3 class="timeline-textcolor">Hành Trình Về Nguồn</h3>
                     </div>
                 </div>
-                <div class="timeline-item" onclick="showActivity('activity2')">
+                <div class="timeline-item activity-content2" onclick="showActivity('activity2')">
                     <div class="timeline-content">
-                        <h3>XÂY DỰNG TÌNH BẠN ĐẸP</h3>
+                        <h3 class="timeline-textcolor">Xây Dựng Tình Bạn Đẹp</h3>
                     </div>
                 </div>
-                <div class="timeline-item" onclick="showActivity('activity3')">
+                <div class="timeline-item activity-content3" onclick="showActivity('activity3')">
                     <div class="timeline-content">
-                        <h3>QUYÊN GÓP ỦNG HỘ</h3>
+                        <h3 class="timeline-textcolor">Quyên Góp Ủng Hộ</h3>
                     </div>
                 </div>
             </div>
@@ -168,10 +168,17 @@
                     justify-content: space-between;
                     margin: 20px 0;
                 }
+                .timeline-textcolor {
+                    color: #fff;
+                }
+                .timeline-content {
+                    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Bóng đổ để chữ dễ đọc */
+                    font-weight: bold;
+                }
                 .timeline-item {
                     cursor: pointer;
                     padding: 10px;
-                    background-color: #f1f1f1;
+                    background-color: #E3F2FD;
                     border-radius: 5px;
                     transition: background-color 0.3s;
                 }
@@ -181,9 +188,28 @@
                 .activity-content {
                     display: none;
                     margin-top: 20px;
+                   
                 }
                 .activity-content.active {
                     display: block;
+                }
+                .activity-content1 {
+                    background-image: url(./assets/img/groupofpeoplesalute.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+                .activity-content2 {
+                    background-image: url(./assets/img/cb02.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+                .activity-content3 {
+                    background-image: url(./assets/img/download.png);
+                    background-size: 70%;
+                    background-repeat: no-repeat;
+
                 }
             </style>
             <script>
